@@ -1,0 +1,89 @@
+body{
+    background-color:#3e4c5e;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.gamecontainer{
+    height: 70vh;
+    width: 30vw;
+    background-color:#536271;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   border-radius: 2em;
+   padding-top: 20px;
+}
+.box{
+    height: 65vmin;
+    width: 65vmin;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+gap: 1em;
+border-radius: 1vmin;
+border: none;
+
+
+}
+.boxes{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2vmin;
+    border: none;
+  box-shadow: 4px 5px 0px  black ;
+  cursor: pointer;
+  background-color: #0e103d;
+ color: white;
+ font-weight: 20em;
+ font-size:5em;
+ 
+
+}
+
+
+h1{
+    font-size: 8vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.msg{
+font-size: 5vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.hid{
+    display: none;
+}
+ 
+
+@media screen and (max-width: 600px) {
+    .gamecontainer{
+        width: 90vw;
+        height: 80vh;
+        padding-top: 10px;
+    }
+
+    .box{
+        width: 90vw;
+        height: 90vw; /* keep square shape */
+        gap: 0.5em;
+    }
+
+    .boxes{
+        width: 28vw;
+        height: 28vw;
+        font-size: 4em;
+    }
+
+    h1{
+        font-size: 12vw;
+    }
+
+    .msg{
+        font-size: 6vw;
+    }
+}
